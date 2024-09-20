@@ -1,0 +1,13 @@
+body {
+    @extend %my-container;
+    
+    .index-header {
+        @include goFlex(row, center, center);
+        height: 500px;
+
+        h1 {
+            text-align: center;
+            font-size: 32px;
+        }
+    }
+}
